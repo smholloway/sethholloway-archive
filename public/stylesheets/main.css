@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Verdana, sans serif;
+  line-height: 125%;
+  vertical-align: middle;
+  color: #000000;
+}
+a {
+  text-decoration: none;
+  color: #3c82c0;
+  border-bottom: 1px dashed #ff0000;
+}
+a:hover {
+  color: #ff0000;
+  border-bottom: 0px;
+}
+#pageContent {
+  width: 800px;
+  margin: auto;
+  padding: 1px;
+}
+#contentHeader {
+  float: left;
+  height: 252px;
+  width: 800px;
+  background-image: url("http://www.sethholloway.com/TheSethHollowaySite.png"); 
+}
+#contentBody {
+  float: left;
+  width: 600px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+#contentSidebar {
+  float: left;
+  font-size: 24px;
+  text-align: center;
+  width: 180px;
+  padding-top: 12px;
+}
+#sidebarItem {
+  display: block;
+  padding-top: 8px;
+  height: 50px;
+}
+#contentFooter {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
