@@ -47,3 +47,10 @@ a:hover {
   width: 100%;
   text-align: center;
 }
+.z {
+  float: right;
+  font-size: .001px;
+  color: transparent;
+  display: inline-block;
+  width: 0px;
+}
